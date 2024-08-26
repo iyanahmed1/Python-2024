@@ -1,0 +1,16 @@
+username=input('enter username:')
+email=input('enter your email:')
+password=input('enter password:')
+
+if username=='':
+    print('username cannot be empty')
+elif'@' not in email:
+        print('invalid email')
+        
+elif len(password)<8:
+            print('password must contain more than 8 characters')
+else:
+            print('regstration successful')
+
+
+
